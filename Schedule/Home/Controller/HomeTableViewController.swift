@@ -13,7 +13,6 @@ class HomeTableViewController: UITableViewController{
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         navigationItem.title = "Schedule"
-        navigationController?.navigationBar.largeTitleTextAttributes = [.foregroundColor: UIColor.lightGray]
         navigationController?.navigationBar.prefersLargeTitles = true
     }
     
